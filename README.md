@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/55207a1b-55be-49ac-993e-b1d937415898/deploy-status)](https://app.netlify.com/sites/magenta-dusk-8f6893/deploys)
+
 # Astro Starter Kit: Minimal
 
 ```sh
