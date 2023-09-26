@@ -1,0 +1,119 @@
+---
+// JS/TS Code written in between the (---) code fence,
+// is ran solely at the build time!
+console.log('See me in the Terminal')
+---
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="/futura.png">
+        <title>Futura Software</title>
+    </head>
+
+    <body>
+        <script type="module" src="/scripts.js"></script>
+
+        <div class="banner">
+            <div>
+                <img src="/futura.png" class="titleicon" height="300"></img>
+                <h1 class="title">Futura Software</h1> 
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="containerelement">
+                <h1 class="elementheading">About Us</h1>
+                <p class="elementparagraph">We are a group of young aspiring Python Developers who create GUI applications with the tkinter framework</p>
+                <p class="elementparagraph">We use rdbendes <a href="https://github.com/rdbende/Sun-Valley-ttk-theme" style="text-decoration: none;">Sun Valley ttk theme</a> to make our apps look beautiful and native.</p>
+
+            </div>
+
+            <div class="containerelement" id="members">
+                
+            </div>
+        </div>
+
+
+    </body>
+</html>
+
+<style>
+	body {
+    	color: white;
+    	background-color: #222222;
+    	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    	}	
+
+	.titleicon {
+    	margin: auto;
+    	display: block;
+   	padding-top: 4em;
+	}
+
+	.title {
+    	text-align: center;
+    	padding-bottom: 2em;
+    	font-size: 40px;
+  	color: black;
+	}
+
+	.banner {
+    	position: relative;
+   	background-image: url(./img/bg.png);
+	}
+
+	h1 {
+    	font-size: 40px;
+	}
+
+	.container {
+    	display: flex;
+    	flex-wrap: wrap;
+ 	justify-content: space-between;
+	}
+
+	.containerelement {
+    	flex: 50%;
+	}
+
+	.elementheading {
+		padding-left: 1em;
+	}
+
+	.elementparagraph {
+		padding-left: 2.5em;
+	}
+
+	@media screen and (max-width: 600px) {
+    		.container {
+		        flex-direction: column;
+	    	}
+	}
+
+	.memberimage {
+	    border-radius: 50%;
+	    width: 50px;
+	}
+
+	.membername {
+	    padding-left: 1em;
+	}
+	
+	.member {
+	    padding-left: 2.4em;
+	    padding-top: 1.5em;
+	    display: flex;
+	}
+
+	.memberlink {
+	    text-decoration: none;
+	    color: white;
+	}
+</style>
+
+<script>
+ // JS Code entered here is ran entirely on the Browser
+ console.log('See me in the devTools')
+</script>
