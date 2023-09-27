@@ -1,8 +1,8 @@
+# Astro Starter Kit: Minimal
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f5807d2d-45b6-44e2-9376-a00a9d9bb5e3/deploy-status)](https://app.netlify.com/sites/imcoderlg-futura-astrosite/deploys)
 
-# [Website](https://dub.sh/ZUXcjqJ)
-
-# Astro Starter Kit: Minimal
+## [Website](https://dub.sh/ZUXcjqJ)
 
 ```sh
 npm create astro@latest -- --template minimal
