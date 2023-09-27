@@ -19,7 +19,7 @@ body {
 
 .banner {
     position: relative;
-    background-image: url(./img/bg.png);
+    background-image: url(../bg.png);
 }
 
 h1 {
